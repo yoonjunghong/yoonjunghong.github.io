@@ -28,7 +28,7 @@ jobs:
           NEXT_PUBLIC_DISQUS_NAME: hyeonhong
           NEXT_PUBLIC_GOOGLE_ANALYTICS_ID: G-5941DSRZ4L
       - run: yarn run build
-      - run: touch ./out/.nojekyll
+      - run: touch out/.nojekyll
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.1
