@@ -6,7 +6,7 @@ export default function AboutPage() {
       <Box sx={{ marginBottom: 8 }} />
       <Container sx={{ textAlign: 'center' }}>
         <Typography variant="h5" sx={{ fontWeight: 'fontWeightBold' }}>
-          {'간단한 자기 소개: ' + process.env.NEXT_PUBLIC_DISQUS_NAME}
+          {'간단한 자기 소개'}
         </Typography>
       </Container>
       <Box sx={{ marginBottom: 16 }} />

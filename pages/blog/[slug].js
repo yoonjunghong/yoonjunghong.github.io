@@ -88,7 +88,7 @@ export default function BlogPost({ post }) {
         <Box sx={{ marginBottom: 16 }} />
 
         <DiscussionEmbed
-          shortname={process.env.NEXT_PUBLIC_DISQUS_NAME}
+          shortname="yoonjunghong"
           config={{
             url: `https://yoonjunghong.github.io/blog/${post.slug}`,
             identifier: post.slug,
