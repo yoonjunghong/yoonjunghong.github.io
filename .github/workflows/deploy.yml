@@ -25,7 +25,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - run: yarn install --frozen-lockfile
         env:
-          NEXT_PUBLIC_DISQUS_NAME: hyeonhong
+          NEXT_PUBLIC_DISQUS_NAME: yoonjunghong
           NEXT_PUBLIC_GOOGLE_ANALYTICS_ID: G-5941DSRZ4L
       - run: yarn run build
       - run: touch out/.nojekyll
